@@ -7,7 +7,7 @@
  */
 
 
-// Violation Example
+// Violation Principle Example
 class Car {
     public function getBrand(): string
     {
