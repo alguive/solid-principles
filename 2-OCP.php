@@ -38,6 +38,7 @@ class Musician {
     }
 }
 
+
 // Refactored Version
 interface Musician {
     public function playInstrument(): string;
