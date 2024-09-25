@@ -20,7 +20,7 @@ class UseCase
         $persistenceManager->saveInvoice($this->invoice);
     }
 
-    protected function saveToFIle(): void
+    protected function saveToFile(): void
     {
         $filePersistence = new FilePersistence();
         $persistenceManager = new PersistenceManager($filePersistence);
