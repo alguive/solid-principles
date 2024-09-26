@@ -22,7 +22,7 @@ class BlogPost
 
     public function printJson(): string
     {
-        return json_encode($this->getData();
+        return json_encode($this->getData());
     }
 
     public function printHtml(): string
